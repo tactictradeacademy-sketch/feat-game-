@@ -1,0 +1,10 @@
+# Node / editor / OS
+node_modules/
+.vscode/
+.DS_Store
+
+# misc
+*.log
+
+# If you use live server caches or build outputs
+dist/

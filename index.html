@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Feat Game - Fullscreen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="gameContainer">
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Player GIF -->
+    <img id="playerImg" src="assets/player.gif" alt="player" draggable="false" />
+
+    <!-- Highscore animated GIF -->
+    <img id="highscoreGif" src="assets/highscore.gif" alt="highscore" />
+
+    <!-- Overlay UI -->
+    <div id="overlayUI">
+      <button id="startBtn">Start</button>
+      <div id="info">
+        <p>Status: <span id="statText">idle</span></p>
+        <p>
+          Score: <span id="score">0</span>
+          <button id="resetHighBtn">Reset HS</button>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
